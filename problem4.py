@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+'''
+Find the largest palindrome made from the product of two 3-digit numbers.
+'''
 
 
 def find_max_palindrome(min=100, max=999):
