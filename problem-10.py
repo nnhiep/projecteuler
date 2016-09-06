@@ -16,11 +16,6 @@ def sum_primes(limit):
         else:
             primes.append(n)  # fallback: only get here for n == 2
 
-    # calculator sum primes
-    sum = 0
-    for i in primes:
-        sum += i
-
-    return sum
+    return sum(int(i) for i in primes)
 
 print(sum_primes(2000000))
